@@ -1,19 +1,13 @@
 # individual
 
-[![build status][build-png]][build] [![Coverage Status][cover-png]][cover] [![Davis Dependency status][dep-png]][dep]
-
-[![NPM][npm-png]][npm]
-
-[![browser support][test-png]][test]
-
 Garantueed individual values
 
 ## Example
 
 ```js
-var Individual = require("individual")
+import { Individual } from "https://code4fukui.github.io/individual/index.js";
 
-var moduleCache = Individual("__MY_MODULE_CACHE", {})
+const moduleCache = Individual("__MY_MODULE_CACHE", {})
 
 // moduleCache is a individual variable local to this file.
 // It will always be the same value and defaults to {}.
@@ -46,24 +40,10 @@ I use it myself because opening a SockJS websocket to the same
 I can't imagine any other way to do it. I hate it too. Make a
     pull request if you know the real solution
 
-## Installation
-
-`npm install individual`
-
 ## Contributors
 
  - Raynos
 
 ## MIT Licenced
 
-  [build-png]: https://secure.travis-ci.org/Raynos/individual.png
-  [build]: https://travis-ci.org/Raynos/individual
-  [cover-png]: https://coveralls.io/repos/Raynos/individual/badge.png
-  [cover]: https://coveralls.io/r/Raynos/individual
-  [dep-png]: https://david-dm.org/Raynos/individual.png
-  [dep]: https://david-dm.org/Raynos/individual
-  [test-png]: https://ci.testling.com/Raynos/individual.png
-  [test]: https://ci.testling.com/Raynos/individual
-  [npm-png]: https://nodei.co/npm/individual.png?stars&downloads
-  [npm]: https://nodei.co/npm/individual
 
